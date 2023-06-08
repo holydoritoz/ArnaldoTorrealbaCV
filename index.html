@@ -17,6 +17,11 @@
             crossorigin="anonymous"
         ></script>
         <link rel="stylesheet" href="assets/css/style.css" />
+        <link
+            rel="shortcut icon"
+            href="./assets/favicon/favicon-16x16.png"
+            type="image/x-icon"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -30,8 +35,60 @@
         <title>Arnaldo Torrealba DEV</title>
     </head>
     <body>
-        <nav></nav>
-        <header>Hola mundo</header>
+        <nav class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+            <div class="container">
+                <a class="navbar-brand d-flex" href="./index.html"
+                    ><img
+                        src="./assets/imgs/nav-logo-dark-bg.png"
+                        alt="Logo de la marca Arnaldo Torrealba"
+                    />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto fs-5 gap-2">
+                        <a class="nav-link" href="#">About Me</a>
+                        <a class="nav-link" href="#">Portafolio</a>
+                        <a class="nav-link" href="#">Education</a>
+                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="container row">
+                <div class="intro col-md-12 col-lg-6">
+                    <h1>Arnaldo Torrealba</h1>
+                    <h2>Full Stack Developer</h2>
+                    <p>
+                        Full Stack Developer looking for new ideas and projects
+                        to keep me innovative.
+                    </p>
+                </div>
+                <div class="logo col-md-12 col-lg-6">
+                    <div class="logo-container">
+                        <div class="logo-box-body"></div>
+                        <div class="logo-box arms-logo"></div>
+                        <div class="logo-box legs-logo"></div>
+                        <img
+                            class="logo-box head-logo"
+                            src="./assets/imgs/arnaldo-pic.jpg"
+                            alt="Fotografía de Arnaldo Torrealba frente a un bar en una playa de Margarita - Venezuela"
+                        />
+                    </div>
+                </div>
+            </div>
+        </header>
         <main></main>
         <section class="skills"></section>
         <section class="portafolio"></section>
