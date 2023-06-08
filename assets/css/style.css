@@ -43,16 +43,17 @@ nav .nav-link:hover{
 
 /* HEADER SECTION */
 
-header .container{
+header .row{
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 0;
     margin: auto;
 }
 header .intro{
     text-align: center;
     margin-bottom: 1rem;
 }
+
 header h1{
     font-size: 64px;
     color: #FF8303;
@@ -64,9 +65,13 @@ header h2{
     font-size: 40px;
 }
 
+.logo{
+    font-size: 16px;
+}
+
 .logo-container{
-    width: 30rem;
-    height: 30rem;
+    width: 30em;
+    height: 30em;
     margin: auto;
     position: relative;
 }
@@ -77,42 +82,42 @@ header h2{
 }
 
 .logo-box{
-    width: 12rem;
-    height: 12rem;
+    width: 12em;
+    height: 12em;
     background-color: #FF8303;
 }
 
 .logo-box-body{
-    width: 18rem;
-    height: 18rem;
+    width: 18em;
+    height: 18em;
     background-color: #F0E3CA;
-    top: 6rem;
-    left: 6rem;
+    top: 6em;
+    left: 6em;
 }
 
 .arms-logo{
-    top: 6rem;
+    top: 6em;
     right: 0;
 }
 
 .legs-logo{
     bottom: 0;
-    left: 9rem;
+    left: 9em;
 }
 
 .head-logo:hover{
-    width: 30rem;
-    height: 30rem;
+    width: 30em;
+    height: 30em;
 }
 
-@media (max-width: 768px) {
-
-    body{
-        font-size: 14px;
-    }
+@media (max-width: 576px) {
 
     nav img{
         height: 2rem;
+    }
+
+    .logo{
+        font-size: 10px;
     }
     
   }
