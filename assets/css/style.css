@@ -13,6 +13,13 @@ body{
     margin: auto;
 }
 
+h4{
+    text-align: center;
+    color: #FF8303;
+    font-size: 32px;
+    font-weight: 500;
+}
+
 /* NAV SECTION */
 
 nav img{
@@ -46,6 +53,7 @@ nav .nav-link:hover{
 header .row{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 1rem 0;
     margin: auto;
 }
@@ -56,6 +64,7 @@ header .intro{
 
 header h1{
     font-size: 64px;
+    font-weight: 500;
     color: #FF8303;
     margin-bottom: 0;
     line-height: 90%;
@@ -121,3 +130,105 @@ header h2{
     }
     
   }
+
+/* MAIN SECTION */
+
+main p{
+    padding: 1rem;
+    text-align: center;
+}
+
+/* SKILLS SECTION */
+
+.skills{
+    padding: 1rem;
+}
+
+.skills .skills-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-box{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5%;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.skill-box i{
+    font-size: 72px;
+}
+.skill-box p{
+    margin: 0;
+}
+
+/* PORTAFOLIO SECTION */
+
+.portafolio{
+    padding: 1rem;
+}
+
+.works-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.work{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5%;
+    width: 20rem;
+}
+
+.work img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.work-body h5{
+    text-align: center;
+    color: #FF8303;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.work-text{
+    padding: 0.5rem;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.work-footer{
+    display: flex;
+    justify-content: end;
+    top: -1rem;
+}
+
+.work-footer a{
+    text-decoration: none;
+    color: #F0E3CA;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.work-footer i{
+    color: #FF8303;
+}
+
+.work-footer a:hover{
+    color: #FF8303;
+}
