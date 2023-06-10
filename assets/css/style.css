@@ -9,8 +9,7 @@ body{
     color: #F0E3CA;
     font-family: 'Inconsolata', monospace;
     font-weight: 400;
-    max-width: 1500px;
-    margin: auto;
+    padding-top: 74px;
 }
 
 h4{
@@ -20,7 +19,15 @@ h4{
     font-weight: 500;
 }
 
+.portafolio, .education, .work-experience{
+    scroll-margin-top: 9ex;
+}
+
 /* NAV SECTION */
+
+.navbar{
+    background-color: #1B3343;
+}
 
 nav img{
     height: 3rem;
@@ -49,6 +56,11 @@ nav .nav-link:hover{
 }
 
 /* HEADER SECTION */
+
+header{
+    max-width: 1500px;
+    margin: auto;
+}
 
 header .row{
     display: flex;
@@ -154,7 +166,7 @@ header h2{
 }
 
 .skill-box{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #1B3343;
     border-radius: 5%;
     width: 7rem;
     display: flex;
@@ -186,7 +198,7 @@ header h2{
 }
 
 .work{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #1B3343;
     border-radius: 5%;
     width: 20rem;
 }
@@ -207,7 +219,7 @@ header h2{
 
 .work-text{
     padding: 0.5rem;
-    height: 100px;
+    /* height: 100px; */
     text-align: center;
     margin-bottom: 0;
 }
@@ -285,7 +297,7 @@ header h2{
 
 .bootcamp-description{
     font-weight: 300;
-    text-align: justify;
+    text-align: left;
 }
 
 .certification{
@@ -310,3 +322,115 @@ header h2{
     margin: 0.25rem;
 }
 
+/* EXPERIENCE SECTION */
+
+.experience{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 1rem;
+}
+
+.experience-box{
+    background-color: #1B3343;
+    border-radius: 3%;
+    width: 25rem;
+    padding: 1rem;
+}
+
+.experience-box h6{
+    font-size: 18px;
+    color: #FF8303;
+    margin: 0;
+    line-height: 50%;
+}
+
+.company-name{
+    font-weight: 700;
+    margin: 0;
+}
+
+.experience-time{
+    font-weight: 300;
+    line-height: 50%;
+    font-size: 14px;
+}
+
+.experience-box ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.experience-box li{
+    line-height: 90%;
+    padding: 0.25rem;
+}
+
+.experience-box i{
+    font-size: 10px;
+    color: #FF8303;
+}
+
+/* FOOTER SECTION */
+
+footer{
+    background-color: #1B3343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    max-width: none;
+}
+
+.footer-box{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1.5rem;
+}
+
+.footer-logo{
+    margin: 0;
+    text-align: center;
+}
+
+.footer-logo img{
+    height: 2rem;
+}
+
+.footer-text{
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.contact-box{
+    text-align: center;
+}
+
+.contact-box h5{
+    color: #FF8303;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.contact-box p{
+    margin: 0;
+}
+
+.socials{
+    margin: 0;
+}
+
+.socials a{
+    font-size: 30px;
+    color: #F0E3CA;
+    margin: 0.25rem;
+}

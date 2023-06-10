@@ -35,7 +35,7 @@
         <title>Arnaldo Torrealba DEV</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark ps-3 pe-3">
             <div class="container">
                 <a class="navbar-brand d-flex" href="./index.html"
                     ><img
@@ -56,11 +56,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto fs-5 gap-2">
-                        <a class="nav-link" href="#">About Me</a>
-                        <a class="nav-link" href="#">Portafolio</a>
-                        <a class="nav-link" href="#">Education</a>
-                        <a class="nav-link" href="#">Experience</a>
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#portafolio">Portafolio</a>
+                        <a class="nav-link" href="#education">Education</a>
+                        <a class="nav-link" href="#experience">Experience</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +131,7 @@
                 </div>
             </div>
         </section>
-        <section id="My-works" class="portafolio">
+        <section id="portafolio" class="portafolio">
             <h4>My Recent Works</h4>
             <div class="works-container">
                 <div class="work">
@@ -144,8 +143,8 @@
                     <div class="work-body">
                         <h5 class="work-title">Landing Page</h5>
                         <p class="work-text">
-                            Proyecto landing page del restaurant Tangarine,
-                            haciendo únicamente uso de HTML5 y CSS3
+                            Tangerine restaurant landing page project, using
+                            only HTML5 and CSS3.
                         </p>
                     </div>
                     <div class="work-footer">
@@ -168,8 +167,8 @@
                     <div class="work-body">
                         <h5 class="work-title">Iguana Page</h5>
                         <p class="work-text">
-                            Proyecto de una página sobre las iguanas, haciendo
-                            uso de HTML5 y CSS3.
+                            One page project about iguanas, using HTML5 and
+                            CSS3.
                         </p>
                     </div>
                     <div class="work-footer">
@@ -192,8 +191,8 @@
                     <div class="work-body">
                         <h5 class="work-title">Cuppon Page</h5>
                         <p class="work-text">
-                            Proyecto de una página responsiva de cupones,
-                            haciendo de HTML5, CSS3 y Bootstrap5.
+                            Project of a responsive coupon page using HTML5,
+                            CSS3 and Bootstrap5.
                         </p>
                     </div>
                     <div class="work-footer">
@@ -209,7 +208,7 @@
                 </div>
             </div>
         </section>
-        <section class="education">
+        <section id="education" class="education">
             <h4>Education and Certifications</h4>
             <p class="text-main">
                 I am a person who likes to learn in a self-taught way, but at
@@ -266,9 +265,105 @@
                 </div>
             </div>
         </section>
-        <section class="experience">
-            <h4>Education and Certifications</h4>
+        <section id="experience" class="work-experience">
+            <h4>Work Experience</h4>
+            <div class="experience">
+                <div class="experience-box">
+                    <h6>General Manager</h6>
+                    <p class="company-name">DEVICES Venezuela.</p>
+                    <p class="experience-time">05/2016 - 11/2019</p>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-square"></i>
+                            Overseeing daily business operations, developing and
+                            implementing growth strategies.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-square"></i>
+                            Delegate responsibilities to the best qualified
+                            employees to maintain the correct flow of
+                            procedures.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-square"></i>
+                            Creation and management of the brand and corporate
+                            identity.
+                        </li>
+                    </ul>
+                </div>
+                <div class="experience-box">
+                    <h6>Salesperson</h6>
+                    <p class="company-name">Reifschneider Iquique</p>
+                    <p class="experience-time">04/2017 - 10/2017</p>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-square"></i>
+                            Provide customers with information about the latest
+                            in-stock smartphones and accessories.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-square"></i>
+                            Recommend customers a smartphone and accessories
+                            according to their needs.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-square"></i>
+                            Develop and apply in-depth knowledge of smartphones
+                            to answer customer questions.
+                        </li>
+                    </ul>
+                </div>
+                <div class="experience-box">
+                    <h6>Warehouse Manager</h6>
+                    <p class="company-name">SETEMCA C.A.</p>
+                    <p class="experience-time">11/2014 - 05/2016</p>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-square"></i>
+                            Supervise the receipt, dispatching, and storage of
+                            smartphones, smartphones parts and accessories.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-square"></i>
+                            Implement good inventory management practices,
+                            including stock rotation.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-square"></i>
+                            Create purchase orders for parts for smartphones
+                            under warranty to Samsung Venezuela.
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <footer></footer>
+        <footer>
+            <div class="footer-box">
+                <div class="footer-logo">
+                    <img src="./assets/imgs/nav-logo-dark-bg.png" alt="" />
+                </div>
+                <p class="footer-text">
+                    If you liked my work and you need me, I'm ready to talk to
+                    you.
+                </p>
+            </div>
+            <div id="contact" class="footer-box contact-box">
+                <h5>Contacts</h5>
+                <p>arnaldo.torrealba@gmail.com</p>
+                <p>(+56 986099157)</p>
+                <div class="socials">
+                    <a
+                        href="https://github.com/arnaldotorrealba"
+                        target="_blank"
+                        ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a
+                        href="https://www.linkedin.com/in/arnaldo-torrealba-b6103b274/"
+                        target="_blank"
+                        ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
