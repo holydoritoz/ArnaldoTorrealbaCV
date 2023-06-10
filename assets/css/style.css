@@ -133,9 +133,11 @@ header h2{
 
 /* MAIN SECTION */
 
-main p{
+.text-main{
     padding: 1rem;
     text-align: center;
+    max-width: 1200px;
+    margin: auto;
 }
 
 /* SKILLS SECTION */
@@ -232,3 +234,79 @@ main p{
 .work-footer a:hover{
     color: #FF8303;
 }
+
+/* EDUCATION SECTION */
+
+.education{
+    padding: 1rem;
+}
+
+.education h3{
+    font-size: 20px;
+    color: #FF8303;
+}
+
+.bootcamps{
+    max-width: 1200px;
+    font-weight: 600;
+    padding: 1rem;
+    margin: auto;
+}
+
+.bootcamp-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: solid #F0E3CA 1px;
+    padding: 0.5rem;
+}
+
+.bootcamp-box-top{
+    border-top: solid #F0E3CA 1px;
+}
+
+.bootcamp-box *{
+    margin: 0 0.5rem;
+}
+
+.bootcamp-name-box{
+    width: 20rem;
+    text-align: left;
+}
+
+.bootcamp-name-box h6{
+    color: #FF8303;
+}
+
+.bootcamp-name-box *{
+    padding: 0;
+}
+
+.bootcamp-description{
+    font-weight: 300;
+    text-align: justify;
+}
+
+.certification{
+    max-width: 1200px;
+    font-weight: 600;
+    padding: 1rem;
+    margin: auto;
+}
+
+.certification-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: solid #F0E3CA 1px;
+    border-bottom: solid #F0E3CA 1px;
+    padding: 0.5rem;
+}
+
+.certificate{
+    height: 250px;
+    margin: 0.25rem;
+}
+
