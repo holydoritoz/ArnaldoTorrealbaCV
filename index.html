@@ -1,372 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-            crossorigin="anonymous"
-        />
-        <script
-            defer
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"
-        ></script>
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <link
-            rel="shortcut icon"
-            href="./assets/favicon/favicon-16x16.png"
-            type="image/x-icon"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700;900&display=swap"
-            rel="stylesheet"
-        />
-        <script
-            src="https://kit.fontawesome.com/c6926bf7a6.js"
-            crossorigin="anonymous"
-        ></script>
-        <title>Arnaldo Torrealba DEV</title>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark ps-3 pe-3">
-            <div class="container">
-                <a class="navbar-brand d-flex" href="./index.html"
-                    ><img
-                        src="./assets/imgs/nav-logo-dark-bg.png"
-                        alt="Arnaldo Torrealba brand logo, the username arnaldotorr in an html closing tag."
-                    />
-                </a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <i class="fa-solid fa-circle-chevron-down"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto fs-5 gap-2">
-                        <a class="nav-link" href="#portafolio">Portafolio</a>
-                        <a class="nav-link" href="#education">Education</a>
-                        <a class="nav-link" href="#experience">Experience</a>
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="./assets/favicon/favicon-16x16.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700;900&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c6926bf7a6.js" crossorigin="anonymous"></script>
+    <title>Arnaldo Torrealba DEV</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark ps-3 pe-3">
+        <div class="container">
+            <a class="navbar-brand d-flex" href="./index.html"><img src="./assets/imgs/nav-logo-dark-bg.png"
+                    alt="Arnaldo Torrealba brand logo, the username arnaldotorr in an html closing tag." />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-circle-chevron-down"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto fs-5 gap-2">
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                    <a class="nav-link" href="#education">Education</a>
+                    <a class="nav-link" href="#experience">Experience</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </div>
             </div>
-        </nav>
-        <header>
-            <div class="row">
-                <div class="intro col-md-12 col-lg-5">
-                    <h1>Arnaldo Torrealba</h1>
-                    <h2>Full Stack Developer</h2>
-                    <p>
-                        Full Stack Developer looking for new ideas and projects
-                        to keep me innovative.
-                    </p>
-                </div>
-                <div class="logo col-md-12 col-lg-5">
-                    <div class="logo-container">
-                        <div class="logo-box-body"></div>
-                        <div class="logo-box arms-logo"></div>
-                        <div class="logo-box legs-logo"></div>
-                        <img
-                            class="logo-box head-logo"
-                            src="./assets/imgs/arnaldo-pic.jpg"
-                            alt="Photograph of Arnaldo Torrealba in front of a bar on a beach in Margarita - Venezuela"
-                        />
-                    </div>
-                </div>
-            </div>
-        </header>
-        <main>
-            <p class="text-main">
-                I studied Electronic Engineering at the Antonio José de Sucre
-                Polytechnic University in Venezuela, and a few years ago, I
-                became interested in the development of websites and interfaces.
-                Since then, I have been constantly improving my skills. Now I am
-                developing websites and web applications that test my knowledge
-                and allow me to acquire new ones.
-            </p>
-        </main>
-        <section class="skills">
-            <h4>My Developer Skills</h4>
-            <div class="skills-container">
-                <div class="skill-box">
-                    <i class="fa-brands fa-html5"></i>
-                    <p>HTML5</p>
-                </div>
-                <div class="skill-box">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <p>CSS3</p>
-                </div>
-                <div class="skill-box">
-                    <i class="fa-brands fa-bootstrap"></i>
-                    <p>Bootstrap</p>
-                </div>
-                <div class="skill-box">
-                    <i class="fa-brands fa-square-js"></i>
-                    <p>JavaScript</p>
-                </div>
-                <div class="skill-box">
-                    <i class="fa-brands fa-python"></i>
-                    <p>Python</p>
-                </div>
-                <div class="skill-box">
-                    <i class="fa-brands fa-git-alt"></i>
-                    <p>Git</p>
-                </div>
-                <div class="skill-box">
-                    <i class="fa-brands fa-github"></i>
-                    <p>GitHub</p>
-                </div>
-            </div>
-        </section>
-        <section id="portafolio" class="portafolio">
-            <h4>My Recent Works</h4>
-            <div class="works-container">
-                <div class="work">
-                    <img
-                        src="./assets/imgs/trab-1.jpg"
-                        class="card-img-top"
-                        alt="Work of a Tangerine restaurant landing page developed with html and css in which natural juices are promoted such as soft fruits, avocado milk, grapefruit and green detox"
-                    />
-                    <div class="work-body">
-                        <h5 class="work-title">Landing Page</h5>
-                        <p class="work-text">
-                            Tangerine restaurant landing page project, using
-                            only HTML5 and CSS3.
-                        </p>
-                    </div>
-                    <div class="work-footer">
-                        <a
-                            class="button"
-                            href="https://github.com/arnaldotorrealba/DesafioLatam-02.git"
-                            role="button"
-                            target="_blank"
-                            >GitHub
-                            <i class="fa-solid fa-square-arrow-up-right"></i
-                        ></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img
-                        src="./assets/imgs/trab-2.jpg"
-                        class="card-img-top"
-                        alt="Work on a web page about iguanas, its description and characteristics where only html, css and flexbox are used."
-                    />
-                    <div class="work-body">
-                        <h5 class="work-title">Iguana Page</h5>
-                        <p class="work-text">
-                            One page project about iguanas, using HTML5 and
-                            CSS3.
-                        </p>
-                    </div>
-                    <div class="work-footer">
-                        <a
-                            class="button"
-                            href="https://github.com/arnaldotorrealba/DesafioLatam-03.git"
-                            role="button"
-                            target="_blank"
-                            >GitHub
-                            <i class="fa-solid fa-square-arrow-up-right"></i
-                        ></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img
-                        src="./assets/imgs/trab-3.jpg"
-                        class="card-img-top"
-                        alt="Work of a responsive coupon web page with form developed with html, css and Bootstrap5"
-                    />
-                    <div class="work-body">
-                        <h5 class="work-title">Cuppon Page</h5>
-                        <p class="work-text">
-                            Project of a responsive coupon page using HTML5,
-                            CSS3 and Bootstrap5.
-                        </p>
-                    </div>
-                    <div class="work-footer">
-                        <a
-                            class="button"
-                            href="https://github.com/arnaldotorrealba/DesafioLatam-04.git"
-                            role="button"
-                            target="_blank"
-                            >GitHub
-                            <i class="fa-solid fa-square-arrow-up-right"></i
-                        ></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="education" class="education">
-            <h4>Education and Certifications</h4>
-            <p class="text-main">
-                I am a person who likes to learn in a self-taught way, but at
-                the same time I love connecting with the community through
-                Bootcamps allowing me to learn from other developers, share
-                different knowledge, points of view and experiences.
-            </p>
-            <div class="bootcamps">
-                <h3>Bootcamps I attend now.</h3>
-                <div class="bootcamp-box bootcamp-box-top">
-                    <p># 01</p>
-                    <div class="bootcamp-name-box">
-                        <h6>Desarrollo Full Stack con JavaScript</h6>
-                        <p>11 months. Academy: Desafío Latam</p>
-                    </div>
-                    <p class="bootcamp-description">
-                        HTML, CSS, Bootstrap, Git, Github, Flexbox, CSS Grid,
-                        Javascript, APIs, React, JSX, SPAs, SQL, PostgreSQL,
-                        Node, API REST, Testing and more.
-                    </p>
-                </div>
-                <div class="bootcamp-box">
-                    <p># 02</p>
-                    <div class="bootcamp-name-box">
-                        <h6>Python Avanzado</h6>
-                        <p>12 weekss. Academy: Código Facilito</p>
-                    </div>
-                    <p class="bootcamp-description">
-                        Good practices, advanced algorithms and data structure,
-                        decorators, functional programming, object oriented
-                        programming, unit tests, concurrent and asynchronous
-                        programming and code optimization.
-                    </p>
-                </div>
-            </div>
-            <div class="certification">
-                <h3>Certifications</h3>
-                <div class="certification-box">
-                    <img
-                        class="certificate"
-                        src="./assets/imgs/professional-python-certificate.jpg"
-                        alt="Certificate awarded to Arnaldo Torrealba for having passed the Advanced Python course."
-                    />
-                    <img
-                        class="certificate"
-                        src="./assets/imgs/oop-certificate.jpg"
-                        alt="Certificate awarded to Arnaldo Torrealba for having passed the Object Oriented Programming course."
-                    />
-                    <img
-                        class="certificate"
-                        src="./assets/imgs/testing-in-pyhton-certificate.jpg"
-                        alt="Certificate awarded to Arnaldo Torrealba for having passed the Unit Testing course in Python."
-                    />
-                </div>
-            </div>
-        </section>
-        <section id="experience" class="work-experience">
-            <h4>Work Experience</h4>
-            <div class="experience">
-                <div class="experience-box">
-                    <h6>General Manager</h6>
-                    <p class="company-name">DEVICES Venezuela.</p>
-                    <p class="experience-time">May 2016 - Nov 2019</p>
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-square"></i>
-                            Overseeing daily business operations, developing and
-                            implementing growth strategies.
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-square"></i>
-                            Delegate responsibilities to the best qualified
-                            employees to maintain the correct flow of
-                            procedures.
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-square"></i>
-                            Creation and management of the brand and corporate
-                            identity.
-                        </li>
-                    </ul>
-                </div>
-                <div class="experience-box">
-                    <h6>Salesperson</h6>
-                    <p class="company-name">Reifschneider Iquique</p>
-                    <p class="experience-time">Apr 2017 - Oct 2017</p>
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-square"></i>
-                            Provide customers with information about the latest
-                            in-stock smartphones and accessories.
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-square"></i>
-                            Recommend customers a smartphone and accessories
-                            according to their needs.
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-square"></i>
-                            Develop and apply in-depth knowledge of smartphones
-                            to answer customer questions.
-                        </li>
-                    </ul>
-                </div>
-                <div class="experience-box">
-                    <h6>Warehouse Manager</h6>
-                    <p class="company-name">SETEMCA C.A.</p>
-                    <p class="experience-time">Nov 2014 - May 2016</p>
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-square"></i>
-                            Supervise the receipt, dispatching, and storage of
-                            smartphones, smartphones parts and accessories.
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-square"></i>
-                            Implement good inventory management practices,
-                            including stock rotation.
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-square"></i>
-                            Create purchase orders for parts for smartphones
-                            under warranty to Samsung Venezuela.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="footer-box">
-                <div class="footer-logo">
-                    <img
-                        src="./assets/imgs/nav-logo-dark-bg.png"
-                        alt="Arnaldo Torrealba brand logo, the username arnaldotorr in an html closing tag."
-                    />
-                </div>
-                <p class="footer-text">
-                    If you liked my work and you need me, I'm ready to talk to
-                    you.
+        </div>
+    </nav>
+    <header>
+        <div class="row">
+            <div class="intro col-md-12 col-lg-5">
+                <h1>Arnaldo Torrealba</h1>
+                <h2>Full Stack Developer</h2>
+                <p>
+                    Full Stack Developer looking for new ideas and projects
+                    to keep me innovative.
                 </p>
             </div>
-            <div id="contact" class="footer-box contact-box">
-                <h5>Contacts</h5>
-                <p>arnaldo.torrealba@gmail.com</p>
-                <p>(+56 986099157)</p>
-                <div class="socials">
-                    <a
-                        href="https://github.com/arnaldotorrealba"
-                        target="_blank"
-                        ><i class="fa-brands fa-github"></i
-                    ></a>
-                    <a
-                        href="https://www.linkedin.com/in/arnaldo-torrealba-b6103b274/"
-                        target="_blank"
-                        ><i class="fa-brands fa-linkedin"></i
-                    ></a>
+            <div class="logo col-md-12 col-lg-5">
+                <div class="logo-container">
+                    <div class="logo-box-body"></div>
+                    <div class="logo-box arms-logo"></div>
+                    <div class="logo-box legs-logo"></div>
+                    <img class="logo-box head-logo" src="./assets/imgs/arnaldo-pic.jpg"
+                        alt="Photograph of Arnaldo Torrealba in front of a bar on a beach in Margarita - Venezuela" />
                 </div>
             </div>
-        </footer>
-    </body>
+        </div>
+    </header>
+    <main>
+        <p class="text-main">
+            I studied Electronic Engineering at the Antonio José de Sucre
+            Polytechnic University in Venezuela, and a few years ago, I
+            became interested in the development of websites and interfaces.
+            Since then, I have been constantly improving my skills. Now I am
+            developing websites and web applications that test my knowledge
+            and allow me to acquire new ones.
+        </p>
+    </main>
+    <section class="skills">
+        <h4>My Developer Skills</h4>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-bootstrap"></i>
+                <p>Bootstrap</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-square-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-react"></i>
+                <p>React</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-python"></i>
+                <p>Python</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-git-alt"></i>
+                <p>Git</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-github"></i>
+                <p>GitHub</p>
+            </div>
+        </div>
+    </section>
+    <section id="portafolio" class="portafolio">
+        <h4>My Recent Works</h4>
+        <div class="works-container">
+            <div class="work">
+                <img src="./assets/imgs/trab-1.jpg" class="card-img-top"
+                    alt="Work of a Tangerine restaurant landing page developed with html and css in which natural juices are promoted such as soft fruits, avocado milk, grapefruit and green detox" />
+                <div class="work-body">
+                    <h5 class="work-title">Landing Page</h5>
+                    <p class="work-text">
+                        Tangerine restaurant landing page project, using
+                        only HTML5 and CSS3.
+                    </p>
+                </div>
+                <div class="work-footer">
+                    <a class="button" href="https://github.com/arnaldotorrealba/DesafioLatam-02.git" role="button"
+                        target="_blank">GitHub
+                        <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./assets/imgs/trab-2.jpg" class="card-img-top"
+                    alt="Work on a web page about iguanas, its description and characteristics where only html, css and flexbox are used." />
+                <div class="work-body">
+                    <h5 class="work-title">Iguana Page</h5>
+                    <p class="work-text">
+                        One page project about iguanas, using HTML5 and
+                        CSS3.
+                    </p>
+                </div>
+                <div class="work-footer">
+                    <a class="button" href="https://github.com/arnaldotorrealba/DesafioLatam-03.git" role="button"
+                        target="_blank">GitHub
+                        <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./assets/imgs/trab-3.jpg" class="card-img-top"
+                    alt="Work of a responsive coupon web page with form developed with html, css and Bootstrap5" />
+                <div class="work-body">
+                    <h5 class="work-title">Cuppon Page</h5>
+                    <p class="work-text">
+                        Project of a responsive coupon page using HTML5,
+                        CSS3 and Bootstrap5.
+                    </p>
+                </div>
+                <div class="work-footer">
+                    <a class="button" href="https://github.com/arnaldotorrealba/DesafioLatam-04.git" role="button"
+                        target="_blank">GitHub
+                        <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="education">
+        <h4>Education and Certifications</h4>
+        <p class="text-main">
+            I am a person who likes to learn in a self-taught way, but at
+            the same time I love connecting with the community through
+            Bootcamps allowing me to learn from other developers, share
+            different knowledge, points of view and experiences.
+        </p>
+        <div class="bootcamps">
+            <h3>Bootcamps I attend now.</h3>
+            <div class="bootcamp-box bootcamp-box-top">
+                <p># 01</p>
+                <div class="bootcamp-name-box">
+                    <h6>Desarrollo Full Stack con JavaScript</h6>
+                    <p>11 months. Academy: Desafío Latam</p>
+                </div>
+                <p class="bootcamp-description">
+                    HTML, CSS, Bootstrap, Git, Github, Flexbox, CSS Grid,
+                    Javascript, APIs, React, JSX, SPAs, SQL, PostgreSQL,
+                    Node, API REST, Testing and more.
+                </p>
+            </div>
+            <div class="bootcamp-box">
+                <p># 02</p>
+                <div class="bootcamp-name-box">
+                    <h6>Python Avanzado</h6>
+                    <p>12 weekss. Academy: Código Facilito</p>
+                </div>
+                <p class="bootcamp-description">
+                    Good practices, advanced algorithms and data structure,
+                    decorators, functional programming, object oriented
+                    programming, unit tests, concurrent and asynchronous
+                    programming and code optimization.
+                </p>
+            </div>
+        </div>
+        <div class="certification">
+            <h3>Certifications</h3>
+            <div class="certification-box">
+                <img class="certificate" src="./assets/imgs/professional-python-certificate.jpg"
+                    alt="Certificate awarded to Arnaldo Torrealba for having passed the Advanced Python course." />
+                <img class="certificate" src="./assets/imgs/oop-certificate.jpg"
+                    alt="Certificate awarded to Arnaldo Torrealba for having passed the Object Oriented Programming course." />
+                <img class="certificate" src="./assets/imgs/testing-in-pyhton-certificate.jpg"
+                    alt="Certificate awarded to Arnaldo Torrealba for having passed the Unit Testing course in Python." />
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="work-experience">
+        <h4>Work Experience</h4>
+        <div class="experience">
+            <div class="experience-box">
+                <h6>General Manager</h6>
+                <p class="company-name">DEVICES Venezuela.</p>
+                <p class="experience-time">May 2016 - Nov 2019</p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-square"></i>
+                        Overseeing daily business operations, developing and
+                        implementing growth strategies.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-square"></i>
+                        Delegate responsibilities to the best qualified
+                        employees to maintain the correct flow of
+                        procedures.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-square"></i>
+                        Creation and management of the brand and corporate
+                        identity.
+                    </li>
+                </ul>
+            </div>
+            <div class="experience-box">
+                <h6>Salesperson</h6>
+                <p class="company-name">Reifschneider Iquique</p>
+                <p class="experience-time">Apr 2017 - Oct 2017</p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-square"></i>
+                        Provide customers with information about the latest
+                        in-stock smartphones and accessories.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-square"></i>
+                        Recommend customers a smartphone and accessories
+                        according to their needs.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-square"></i>
+                        Develop and apply in-depth knowledge of smartphones
+                        to answer customer questions.
+                    </li>
+                </ul>
+            </div>
+            <div class="experience-box">
+                <h6>Warehouse Manager</h6>
+                <p class="company-name">SETEMCA C.A.</p>
+                <p class="experience-time">Nov 2014 - May 2016</p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-square"></i>
+                        Supervise the receipt, dispatching, and storage of
+                        smartphones, smartphones parts and accessories.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-square"></i>
+                        Implement good inventory management practices,
+                        including stock rotation.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-square"></i>
+                        Create purchase orders for parts for smartphones
+                        under warranty to Samsung Venezuela.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-box">
+            <div class="footer-logo">
+                <img src="./assets/imgs/nav-logo-dark-bg.png"
+                    alt="Arnaldo Torrealba brand logo, the username arnaldotorr in an html closing tag." />
+            </div>
+            <p class="footer-text">
+                If you liked my work and you need me, I'm ready to talk to
+                you.
+            </p>
+        </div>
+        <div id="contact" class="footer-box contact-box">
+            <h5>Contacts</h5>
+            <p>arnaldo.torrealba@gmail.com</p>
+            <p>(+56 986099157)</p>
+            <div class="socials">
+                <a href="https://github.com/arnaldotorrealba" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/arnaldo-torrealba-b6103b274/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
